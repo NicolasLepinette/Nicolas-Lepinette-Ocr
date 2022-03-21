@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# 
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8B7BBDEA-F365-42A7-8853-0FCD3D935398}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NicolasLepinette.Ocr", "src\NicolasLepinette.Ocr\NicolasLepinette.Ocr.csproj", "{32BB3453-28A2-441A-A928-BD5EFF0D074D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8E4DAF7F-D3EF-44E6-8B7A-952218F65EAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NicolasLepinette.Ocr.Tests", "tests\NicolasLepinette.Ocr.Tests\NicolasLepinette.Ocr.Tests.csproj", "{60037C24-6B65-4CFA-BF63-B365C849D5D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "console", "console", "{872CF4B1-4AEF-4FC2-9C86-40AD37A1B1B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NicolasLepinette.Ocr.Console", "console\NicolasLepinette.Ocr.Console\NicolasLepinette.Ocr.Console.csproj", "{A1AEFF8E-07DD-4C7A-BD85-A599E7EC107B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "webapi", "webapi", "{D39BD92A-215E-4316-9964-D4007237CC32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NicolasLepinette.Ocr.WebApi", "webapi\NicolasLepinette.Ocr.WebApi\NicolasLepinette.Ocr.WebApi.csproj", "{AA4C015C-2F25-4905-819C-879DCC153B03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32BB3453-28A2-441A-A928-BD5EFF0D074D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32BB3453-28A2-441A-A928-BD5EFF0D074D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32BB3453-28A2-441A-A928-BD5EFF0D074D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32BB3453-28A2-441A-A928-BD5EFF0D074D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60037C24-6B65-4CFA-BF63-B365C849D5D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60037C24-6B65-4CFA-BF63-B365C849D5D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60037C24-6B65-4CFA-BF63-B365C849D5D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60037C24-6B65-4CFA-BF63-B365C849D5D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1AEFF8E-07DD-4C7A-BD85-A599E7EC107B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1AEFF8E-07DD-4C7A-BD85-A599E7EC107B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1AEFF8E-07DD-4C7A-BD85-A599E7EC107B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1AEFF8E-07DD-4C7A-BD85-A599E7EC107B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA4C015C-2F25-4905-819C-879DCC153B03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA4C015C-2F25-4905-819C-879DCC153B03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA4C015C-2F25-4905-819C-879DCC153B03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4C015C-2F25-4905-819C-879DCC153B03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{32BB3453-28A2-441A-A928-BD5EFF0D074D} = {8B7BBDEA-F365-42A7-8853-0FCD3D935398}
+		{60037C24-6B65-4CFA-BF63-B365C849D5D0} = {8E4DAF7F-D3EF-44E6-8B7A-952218F65EAD}
+		{A1AEFF8E-07DD-4C7A-BD85-A599E7EC107B} = {872CF4B1-4AEF-4FC2-9C86-40AD37A1B1B2}
+		{AA4C015C-2F25-4905-819C-879DCC153B03} = {D39BD92A-215E-4316-9964-D4007237CC32}
+	EndGlobalSection
+EndGlobal
